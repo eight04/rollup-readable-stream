@@ -1,0 +1,22 @@
+{
+  "name": "rollup-readable-stream",
+  "version": "1.0.0",
+  "description": "Test case with readable-stream",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "rollup -c",
+    "test": "node bundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/au-phiware/rollup-readable-stream"
+  },
+  "author": "Corin Lawson",
+  "license": "MIT",
+  "devDependencies": {
+    "readable-stream": "2.3.3",
+    "rollup": "0.45.2",
+    "rollup-plugin-commonjs": "8.0.2",
+    "rollup-plugin-node-resolve": "3.0.0"
+  }
+}
