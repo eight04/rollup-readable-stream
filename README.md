@@ -1,4 +1,4 @@
-This is a repro repo.
+This is a repro repo for [rollup/rollup#1507](https://github.com/rollup/rollup/issues/1507).
 
 ## Steps to repro
 
