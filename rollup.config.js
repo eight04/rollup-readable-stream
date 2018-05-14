@@ -1,4 +1,4 @@
-import cjs from 'rollup-plugin-commonjs';
+import cjs from 'rollup-plugin-cjs-es';
 import node from 'rollup-plugin-node-resolve';
 
 export default [
@@ -6,7 +6,10 @@ export default [
         entry: 'index.js',
         plugins: [
             node(),
-            cjs()
+            cjs({
+				nested: true,
+				exportType: "default"
+			})
         ],
         external: [
             'buffer',

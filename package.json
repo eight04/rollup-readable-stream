@@ -15,8 +15,8 @@
   "license": "MIT",
   "devDependencies": {
     "readable-stream": "2.3.3",
-    "rollup": "0.45.2",
-    "rollup-plugin-commonjs": "8.0.2",
-    "rollup-plugin-node-resolve": "3.0.0"
+    "rollup": "^0.58.2",
+    "rollup-plugin-cjs-es": "^0.3.2",
+    "rollup-plugin-node-resolve": "^3.3.0"
   }
 }
